@@ -17,6 +17,8 @@ public class DfsApp {
         vertex4.addNeighbor(vertex5);
         vertex2.addNeighbor(vertex3);
 
-        dfs.dfs(vertex1);
+       //dfs.dfs(vertex1);
+
+        dfs.dfsRecursive(vertex1);
     }
 }
