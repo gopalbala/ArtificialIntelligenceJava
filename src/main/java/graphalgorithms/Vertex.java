@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by fax6 on 02/11/17.
+ * Created by gbalasubramanian on 02/11/17.
  */
 public class Vertex {
     public Vertex(int data){
