@@ -13,6 +13,24 @@ public class Vertex {
     }
     private int data;
 
+    public int getData() {
+        return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
+    }
+
+    int depth;
+
     public boolean isVisited() {
         return visited;
     }
